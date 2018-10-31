@@ -1,0 +1,107 @@
+﻿[BPRE]
+<Textboxes>
+Type 1: &H41F1C8,&H471DEC,028020,!240,Image,Palette
+Type 2: &H470B0C,&H471E0C,028020,!260,Image,Palette
+Selection 0: &H470D6C,&H47190C,018018,Image,Palette
+Selection 1: &H470E8C,&H47192C,018018,Image,Palette
+Selection 2: &H47132C,&H4719AC,018018,Image,Palette
+Selection 3: &H47144C,&H4719CC,018018,Image,Palette
+Selection 4: &H47156C,&H4719EC,018018,Image,Palette
+Selection 5: &H4716AC,&H471A0C,018018,Image,Palette
+Selection 6: &H4717CC,&H471A2C,018018,Image,Palette
+Letters: &H232598,&H35B968,080080,Image
+</Textboxes>
+<Back Sprites>
+Hero 0: &HE69EBC,+0,040040,Image
+Hero 1: &HE6A6BC,+0,040040,Image
+Hero 2: &HE6AEBC,+0,040040,Image
+Hero 3: &HE6B6BC,+0,040040,Image
+Hero 4: &HE6BEBC,+0,040040,Image
+Heroine 0: &HE6C6BC,+0,040040,Image
+Heroine 1: &HE6CEBC,+0,040040,Image
+Heroine 2: &HE6D6BC,+0,040040,Image
+Heroine 3: &HE6DEBC,+0,040040,Image
+Heroine 4: &HE6E6BC,+0,040040,Image
+</Back Sprites>
+<Back Sprites 2>
+Old Man 0: &HE70EBC,&HE76F34,040040,Image,Palette
+Old Man 1: &HE716BC,&HE76F34,040040,Image,Palette
+Old Man 2: &HE71EBC,&HE76F34,040040,Image,Palette
+Old Man 3: &HE726BC,&HE76F34,040040,Image,Palette
+Man 0: &HE6EEBC,Grayscale,040040,Image
+Man 1: &HE6F6BC,Grayscale,040040,Image
+Man 2: &HE6FEBC,Grayscale,040040,Image
+Man 3: &HE706BC,Grayscale,040040,Image
+</Back Sprites 2>
+<Back Sprites 3>
+Brenden 0: &HE72EBC,Grayscale,040040,Image
+Brenden 1: &HE736BC,Grayscale,040040,Image
+Brenden 2: &HE73EBC,Grayscale,040040,Image
+Brenden 3: &HE746BC,Grayscale,040040,Image
+May 0: &HE74EBC,Grayscale,040040,Image
+May 1: &HE756BC,Grayscale,040040,Image
+May 2: &HE75EBC,Grayscale,040040,Image
+May 3: &HE766BC,Grayscale,040040,Image
+</Back Sprites 3>
+<Boat>
+Boat: &H469FD8,&H46A6d8,040038,Image,Palette
+Waves: &H46A6F8,&H46A6D8,020080,Image,Palette
+</Boat>
+<Hero Interactions>
+Surf: &H396B88,+0,0200B8,Image
+Arrows: &H398BA8,+0,010080,Image
+Exclamations: &H3C6AC8,+0,0100F0,Image
+Fly 0: &H39D3C8,+0,040040,Image
+Male Fly 1: &H39DBC8,+0,040040,Image
+Male Fly 2: &H39E3C8,+0,040040,Image
+Female Fly 1: &H39EBC8,+0,040040,Image
+Female Fly 2: &H39F3C8,+0,040040,Image
+</Hero Interactions>
+<Landscape>
+Grass: &H399008,&H398FC8,010250,Image,Palette
+Flowers: &H3A73E0,&HEA1B68,010050,Image,Palette
+</Landscape>
+<Fosils>
+Fosil 1: &H3E0FA0,&H3E17A0,040040,Image,Palette
+Fosil 2: &H3E0780,&H3E0F80,040040,Image,Palette
+</Fosils>
+<People>
+Guy: &H45DD40,&H45E540,040040,Image,Palette
+Girl: &H45E560,&H45ED60,040040,Image,Palette
+Oak: &H45ED80,&H45F580,040040,Image,Palette
+Breeder: &H45D520,&H45DD20,040040,Image,Palette
+</People>
+Spinning Pokeball: &H26207C,&H26205C,0100C0,Image,Palette
+Egg Hatch: &H25F862,&H25F842,020088,Image,Palette
+Pokeball LZ-Example: &HE8742C,&HE874DC,018018,Image,Palette
+[/BPRE]
+[AXVE]
+<Textboxes>
+Textbox 1: &HE9ADDC,&HE9AEFC,018018,Image,Palette
+Textbox 2: &HE9AF1C,&HE9B03C,018018,Image,Palette
+Textbox 3: &HE9B05C,&HE9B17C,018018,Image,Palette
+Textbox 4: &HE9B19C,&HE9B2BC,018018,Image,Palette
+Textbox 5: &HE9B2DC,&HE9B3FC,018018,Image,Palette
+Textbox 6: &HE9B41C,&HE9B53C,018018,Image,Palette
+Textbox 7: &HE9B55C,&HE9B67C,018018,Image,Palette
+Textbox 8: &HE9B69C,&HE9B7BC,018018,Image,Palette
+Textbox 9: &HE9B7DC,&HE9B8FC,018018,Image,Palette
+Textbox 10: &HE9B19C,&HE9BA3C,018018,Image,Palette
+Textbox 11: &HE9BA5C,&HE9BB7C,018018,Image,Palette
+Textbox 12: &HE9BB9C,&HE9BCBC,018018,Image,Palette
+Textbox 13: &HE9BCDC,&HE9BDFC,018018,Image,Palette
+Textbox 14: &HE9BE1C,&HE9BF3C,018018,Image,Palette
+</Textboxes>
+<Character Interactions>
+Arrows: &H369088,+0,010080,Image
+Exclamations: &H39B308,+0,010030,Image
+</Character Interactions>
+<Enviornment>
+Grass: &H3694C8,&H3694A8,010250,Image,Palette
+Flowers: &H376D84,&HE94350,010030,Image,Palette
+</Enviornment>
+<People>
+Profeser Birch: &H39DC14,&H39E414,040040,Image,Palette
+</People>
+Badges: &H3B5AB8,Grayscale,080010,Image
+[/AXVE]
