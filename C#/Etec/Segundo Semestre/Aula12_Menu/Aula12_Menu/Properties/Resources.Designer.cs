@@ -63,6 +63,16 @@ namespace Aula12_Menu.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Avosoft_Warm_Toolbar_Print {
+            get {
+                object obj = ResourceManager.GetObject("Avosoft-Warm-Toolbar-Print", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap background_2579719_960_720 {
             get {
                 object obj = ResourceManager.GetObject("background-2579719_960_720", resourceCulture);
