@@ -7,6 +7,8 @@ package projetojavaprova;
 
 import java.util.ArrayList;
 import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.JTextArea;
 
 /**
  *
@@ -22,14 +24,29 @@ public class Prova extends Extends implements Implements {
         return "Prova{" + '}';
     }
 
-    public static void main(String[] args) {
+    public class Frame extends JFrame {
         
+        private JTextArea texto = new JTextArea();
+
+        public Frame() {
+            super("Meu Notepad");
+            this.montaJanela();
+        }
+
+        private void montaJanela() {
+            this.getContentPane().add(texto);
+        }
+    }
+
+    public static void main(String[] args) {
+
         Extends e = new Instancia();
         e.sOut();
-        
+
         ArrayList<String> bandas = new ArrayList<String>();
         int vetor[] = new int[10];
         int matriz[][] = new int[10][10];
+        int matrizT[][][] = new int[10][10][10];
 
         JOptionPane.showInputDialog(null, "");
         JOptionPane.showMessageDialog(null, "");
